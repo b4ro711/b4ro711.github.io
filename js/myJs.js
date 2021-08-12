@@ -19,7 +19,7 @@ function firstQuestion(){
         imageUrl: './img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#ffb0b0 url("../img/input-bg.jpeg")',
+        background: '#ffb0b0',
         imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
@@ -101,11 +101,11 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder=':33333333'>",
-        background: '#ffb0b0 url("../img/input-bg.jpeg")',
+        background: '#ffb0b0',
         backdrop: `
               rgba(0,0,123,0.4)
               url("../img/giphy2.gif")
-              left top
+              left bottom
               no-repeat
             `,
         showCancelButton: true,
@@ -120,7 +120,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
-                background: '#ffb0b0 url("../img/iput-bg.jpg")',
+                background: '#ffb0b0',
                 title: 'Tui biết mà ^^ Yêu bạn ba ngàn',
                 text: "Tối nay acp fb nhaaa <3 Còn giờ thì chờ gì nữa mà ko inbox cho tui đi nàoooo",
                 confirmButtonColor: '#83d0c9',
